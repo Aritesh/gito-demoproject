@@ -14,14 +14,10 @@ class EmployeeProfile extends StatefulWidget {
 
 class _EmployeeProfileState extends State<EmployeeProfile> {
   DatabaseHelper db = new DatabaseHelper();
-  var _content1;
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    setState(() {
-      var _content1 = widget.params.imageU;
-    });
   }
 
   @override
